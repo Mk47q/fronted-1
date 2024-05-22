@@ -8,13 +8,13 @@
 <body>
   <header class="header">
     <div class="Container"> 
-      <nav class="nav-bar">
+      <nav class="nav-bar max-[802px]:">
         <div class="wrapper-right">
           <div class="nav-bar__logo">
             <img src="./images/logo.svg" alt="Logo" class="nav-bar__logo--img">
           </div>
           <div class="nav-bar__wrapper-menu">
-            <ul class="nav-bar__wrapper-menu--menu">
+            <ul class="nav-bar__wrapper-menu--menu max-[565px]:hidden">
               <li class="nav-bar__wrapper-menu--item up1">Product</li>
               <img src="./images/icon-arrow-light.svg" alt="" class="nav-bar__wrapper-menu--img img1">
               <li class="nav-bar__wrapper-menu--item up2" >Company</li>
@@ -22,9 +22,10 @@
               <li class="nav-bar__wrapper-menu--item up3">Connect</li>
               <img src="./images/icon-arrow-light.svg" alt="" class="nav-bar__wrapper-menu--img img3">
             </ul>
+            <img src="./images/icon-hamburger.svg" alt="" class="min-[565px]:hidden">
           </div>
         </div>
-        <div class="nav-bar__accunt">
+        <div class="nav-bar__accunt max-[802px]:hidden">
           <a href="" class="nav-bar__accunt--link">Login</a>
           <a href="" class="nav-bar__accunt--link bg-white mr-2 px-8 py-2 rounded-[1.5rem] text-[hsl(356, 100%, 66%)] link1">Sign Up</a>
         </div>
@@ -60,13 +61,53 @@
         <p class="title-wrapper__text--text">Grow your audience and build your online brand</p>
       </div>
       <div class="title-wrapper__links">
-        <button class="title-wrapper__links--link bg-white link1">Start for Free</button>
+        <button class="title-wrapper__links--link bg-white link1 mb-[10px]">Start for Free</button>
         <button class="title-wrapper__links--link font-bold">Learn More</button>
       </div>
     </div>
   </header>
+
+
+
+
+
+
+
+
+
   <main class="main">
-    <div class="partone-wrapper">
+    <section class="main1">
+      <div class="text-center mb-[3rem] mt-[6rem] max-[1000px]:mb-0"><h1 class="text-[hsl(208,49%,24%)] text-[2rem]">Designed for the future</h1></div>
+      <div class="flex justify-between max-[1000px]:flex-col-reverse">
+        <div class="basis-[40%] ml-[5.1rem] max-[1000px]:ml-0 max-[1000px]:flex max-[1000px]:justify-center max-[1000px]:text-center">
+          <div class="description-wrapper">
+            <h1 class="description-wrapper--h1">Introducing an extensible editor</h1>
+            <p class="description-wrapper--p">
+              Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+              The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+              videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+              change the looks of a blog.
+            </p>
+            <h1 class="description-wrapper--h1">Robust content management</h1>
+            <p class="description-wrapper--p">
+              Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+              by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+            </p>
+          </div>
+        </div>
+        <div class="basis-[53%] relative max-[1000px]:basis-[35rem] max-[1000px]:flex max-[1000px]:justify-center">
+          <div class="absolute h-full right-0 top-[-6.5rem] max-[1000px]:top-0 max-[1000px]:sticky">
+            <img src="./images/illustration-editor-desktop.svg" alt="" class="h-[41rem] w-[32rem] max-[1000px]:hidden">
+            <img src="./images/illustration-editor-mobile.svg" alt="" class="min-[1000px]:hidden h-[30rem] mt-[2rem]">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+
+    <!-- <div class="partone-wrapper">
       <div class="partone-wrapper__title">
         <h1 class="partone-wrapper__title--h1">Designed for the future</h1>
       </div>
@@ -85,9 +126,9 @@
             by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
           </p>
         </div>
-      </div>
-      <div class="pictore-wrapper">
-        <img src="./images/illustration-editor-desktop.svg" class="pictore-wrapper--img">
+        <div class="pictore-wrapper">
+          <img src="./images/illustration-editor-desktop.svg" class="pictore-wrapper--img">
+        </div>
       </div>
     </div>
     <div class="parttwo bg-[hsl(237,17%,21%)] h-[26rem] relative overflow-hidden">
@@ -127,10 +168,31 @@
         </p>
       </div>
     </div>
-    </div>
-    
+    </div> -->
   </main>
-  <footer class="footer">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- <footer class="footer">
     <div class="box-border bg-[hsl(240,10%,16%)] h-[25rem] flex justify-start">
       <div class="max-w-[80rem] flex justify-between gap-[12rem] pt-[6rem] pl-[5rem]">
         <div>
@@ -165,7 +227,8 @@
         </div>
       </div>
     </div>
-  </footer>
+  </footer> -->
+  <div class="mb-[50rem]"></div>
   <script src="./index.js"></script>
 </body>
 </html>

@@ -12,19 +12,19 @@
     }
     .header{
         font-family: over;
-        @apply h-[30rem];
+        @apply min-h-[30rem];
         border-bottom-left-radius: 70px;
         background: linear-gradient(to left,hsl(353, 100%, 62%),hsl(13, 100%, 72%));
         color: hsl(0, 0%, 100%); 
     }
     .Container{
-        @apply mx-auto w-[85%] h-20; 
+        @apply mx-auto w-[85%]; 
     }
     .nav-bar{
         @apply flex justify-between items-center pt-4 font-bold text-[15px] relative;
     }
     .wrapper-right{
-        @apply flex items-center;
+        @apply flex items-center max-[802px]:w-full max-[802px]:justify-between;
     }
     .nav-bar__logo{
         @apply w-[6rem] mr-9;
@@ -54,7 +54,7 @@
         @apply ml-4;
     }
     .title-wrapper{
-        @apply text-center pt-20;
+        @apply text-center pt-20 pb-12 px-4;
     }
     .title-wrapper__texts{
 
@@ -80,7 +80,7 @@
         @apply mt-32 mt-32 h-[56rem];
     }
     .partone-wrapper__title{
-        @apply text-center mb-24 ;
+        @apply text-center mb-24;
     }
     .partone-wrapper__title--h1{
         @apply text-[2rem];
