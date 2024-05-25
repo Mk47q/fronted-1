@@ -956,6 +956,18 @@ video {
   width: 4rem;
 }
 
+.w-\[6\] {
+  width: 6;
+}
+
+.w-\[65\] {
+  width: 65;
+}
+
+.w-\[65\%\] {
+  width: 65%;
+}
+
 .max-w-\[26rem\] {
   max-width: 26rem;
 }
@@ -1116,6 +1128,18 @@ video {
 
 .pt-\[12rem\] {
   padding-top: 12rem;
+}
+
+.pt-\[2\] {
+  padding-top: 2;
+}
+
+.pt-\[rem\] {
+  padding-top: rem;
+}
+
+.pt-\[5rem\] {
+  padding-top: 5rem;
 }
 
 .text-center {
@@ -1708,6 +1732,52 @@ h1 {
 @media (max-width: 565px) {
   .max-\[565px\]\:hidden {
     display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .max-\[400px\]\:w-0 {
+    width: 0px;
+  }
+
+  .max-\[400px\]\:w-full {
+    width: 100%;
+  }
+
+  .max-\[400px\]\:flex-col {
+    flex-direction: column;
+  }
+
+  .max-\[400px\]\:justify-normal {
+    justify-content: normal;
+  }
+
+  .max-\[400px\]\:gap-0 {
+    gap: 0px;
+  }
+
+  .max-\[400px\]\:gap-\[\] {
+    gap: ;
+  }
+
+  .max-\[400px\]\:gap-\[3\] {
+    gap: 3;
+  }
+
+  .max-\[400px\]\:gap-\[3r\] {
+    gap: 3r;
+  }
+
+  .max-\[400px\]\:gap-\[3re\] {
+    gap: 3re;
+  }
+
+  .max-\[400px\]\:gap-\[3re\2c \] {
+    gap: 3re,;
+  }
+
+  .max-\[400px\]\:gap-\[3rem\] {
+    gap: 3rem;
   }
 }
 
